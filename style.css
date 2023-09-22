@@ -1,0 +1,29 @@
+1, h2 {
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: rgb(7, 117, 102);
+    text-shadow: 1px 1px 2px black;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+  }
+  
+  .interest {
+    font-family: 'Satisfy', cursive;
+    font-weight: 100;
+    color: rgb(11, 190, 166);
+    text-shadow: 1px 1px 2px black;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 2em;
+  }

@@ -1,29 +1,60 @@
-1, h2 {
-    font-weight: 300;
-    font-family: 'Raleway', sans-serif;
-  }
-  
+
   h1 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
+    text-align: center;
+    font-weight: 100;
+    color: black;
   }
   
   h2 {
-    font-size: 1.5em;
-    font-family: 'Satisfy', cursive;
-    font-weight: 100;
-    color: rgb(7, 117, 102);
-    text-shadow: 1px 1px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    color: black;
     font-size: 3em;
     text-align: center;
     margin-top: 2em;
   }
   
+  body{
+    background-color: white;
+  }
+  
   .interest {
-    font-family: 'Satisfy', cursive;
+    font-family: Arial, Helvetica, sans-serif
     font-weight: 100;
     color: rgb(11, 190, 166);
-    text-shadow: 1px 1px 2px black;
     font-size: 3em;
     text-align: center;
     margin-top: 2em;
+  }
+  
+  .container {
+    display: flex;
+    gap: 0.625%;
+  }
+
+  a {
+    flex: 1;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  }
+  
+  a:link,
+  a:visited,
+  a:focus {
+    background: rgb(232, 229, 194);
+    color: black;
+  }
+  
+  a:hover {
+    background: orange;
+  }
+  
+  a:active {
+    background: darkred;
+    color: white;
   }
